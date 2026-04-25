@@ -1,0 +1,30 @@
+theme = "grv-wti"
+
+[keys.normal]
+C-j = "jump_backward"
+C-i = "jump_forward"
+
+[editor]
+cursorline= true
+true-color = true
+bufferline = "always"
+color-modes = true
+popup-border = "all"
+end-of-line-diagnostics = "hint"
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+
+[editor.lsp]
+display-progress-messages = true
+
+[editor.cursor-shape]
+insert = "bar"
+select = "underline"
+
+[editor.soft-wrap]
+enable = true
+
+[editor.indent-guides]
+render = true
+character = "|"

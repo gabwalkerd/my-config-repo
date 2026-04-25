@@ -1,0 +1,9 @@
+inherits = "gruvbox"
+
+# remove italic in modifiers
+"attribute" = { fg = "aqua1", modifiers = [] }
+"comment" = { fg = "gray", modifiers = [] }
+"type.enum.variant" = { modifiers = [] }
+"markup.italic" = { modifiers = ["italic"] }
+"variable.builtin" = { fg = "orange1", modifiers = [] }
+"variable.parameter" = { fg = "blue1", modifiers = [] }

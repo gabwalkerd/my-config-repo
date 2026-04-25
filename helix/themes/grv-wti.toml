@@ -1,0 +1,9 @@
+inherits = "grv"
+
+# remove unnecessary italic in modifiers
+"comment" = { fg = "gray1", modifiers = []  }
+"text.emphasis" = { fg = "fg2", modifiers = [] }
+"variable" = { fg = "fg0", modifiers = [] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.quote" = { fg = "fg2", modifiers = ["italic"] }
+"ui.virtual.inlay-hint" = { fg = "bg3", modifiers = [] }
